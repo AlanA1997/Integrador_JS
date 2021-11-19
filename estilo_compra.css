@@ -1,0 +1,127 @@
+#cabecera {
+    background-color: rgba(40, 47, 59, 0.816);
+}
+#cabecera a {
+    color: rgb(143, 143, 143);
+}
+#codoacodo{
+    margin-left: 35%;
+}
+.titulo_img {
+    color: white;
+    display: inline-block;
+}
+#conferencia {
+    color: rgb(255, 255, 255) !important;
+}
+#comprar {
+    color: rgb(18, 214, 28) !important;
+}
+#comprar:hover{
+    border: solid #12a81a;
+    border-radius: 30px;
+}
+
+
+                            /* TARJETAS */
+#tarjetas {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+#tarj1 {
+    margin-left: 8px;
+    width: 19%;
+}
+.parrafo {
+    text-align: center;
+}
+.negrita {
+    font-weight: bolder;
+}
+.negrita {
+    font-weight: bolder;
+}
+#letra_chica {
+    font-size: 12px;
+}
+
+                            /* FORMULARIO */
+.formulario {
+    width: 60%;
+    margin-left: 21%;
+}
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+#nombre, #apellido {
+    margin: 0px 20px 25px 7px;
+}
+#total {
+    text-align: center;
+}
+#correo{
+    width: 98% !important;
+    margin: 0px 0px 20px 3px;
+}
+
+#cant_cat{
+    width: 99% !important;
+    margin: 0px 0px 20px 0px;
+}
+#total {
+    width: 97% !important;
+    margin: 0px 0px 20px 25px;
+}
+                            /* BOTONES */
+#total_boton {
+    background-color: rgb(141, 198, 237);
+    color: rgb(2, 4, 126);
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+}
+#botones {
+    text-align: center;
+    box-shadow: 10px coral;
+}
+#boton_borrar, #boton_resultado {
+    background-color: rgb(166, 210, 77);
+    width: 28%;
+    border-color: rgb(123, 156, 58);
+    box-shadow: 5px 3px rgb(123, 156, 58);
+}
+                            /* PIE DE PAGINA */
+.pie {
+    background-color: #133d55;
+    margin-top: 20px;
+    padding: 0.5%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.pie a{
+    color:  #fff;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 15px;
+    text-align: justify;
+}
+#textoJunto {
+    margin-top: 2px;
+}
+            /* RESPONSIVE */
+@media only screen and (max-width: 768px){
+    .pie{
+        background-color: #133d55;
+        margin-top: 20px;
+        position: relative;
+    }
+}
